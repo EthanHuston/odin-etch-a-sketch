@@ -1,0 +1,34 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.title {
+  text-align: center;
+  padding: 18px;
+}
+.buttons-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.mode-btn,
+.grid-change-btn {
+  margin: 12px;
+  padding: 4px;
+  width: 120px;
+}
+
+.grid-container {
+  margin: 18px;
+  display: flex;
+  flex-wrap: wrap;
+  height: 760px;
+  width: 760px;
+  border: 1px solid black;
+}
